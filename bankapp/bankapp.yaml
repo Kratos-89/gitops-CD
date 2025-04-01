@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: bankapp
-          image: docravin/gitopsbankapp:v1
+          image: docravin/gitopsbankapp:v2
           ports:
             - containerPort: 8080
           env:
