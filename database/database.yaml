@@ -5,7 +5,7 @@ metadata:
   name: mysql-deployment
 spec:
   selector:
-    matchlabels:
+    matchLabels:
       app: mysql
   strategy:
     type: Recreate # Kills old pods first, then launches new ones
