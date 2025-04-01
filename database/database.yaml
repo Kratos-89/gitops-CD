@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -20,7 +21,7 @@ spec:
             - name: MYSQL_ROOT_PASSWORD
               value: "Test@123"
             - name: MYSQL_DATABASE
-              vale: "bankappdb"
+              value: "bankappdb"
           ports:
             - name: mysql-port
               containerPort: 3306
